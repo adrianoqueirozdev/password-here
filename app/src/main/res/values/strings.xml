@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Senha Aqui</string>
+    <string name="generic_error">Something wrong happened. Please try again.</string>
+    <string name="new_entry">Nova entrada</string>
+    <string name="name">Nome</string>
+    <string name="user_id">Id do usuário</string>
+    <string name="password">Senha</string>
+    <string name="save">Salvar</string>
+    <string name="email">Email</string>
+    <string name="recover_password">Esqueceu sua senha?</string>
+    <string name="to_enter">Entrar</string>
+    <string name="details">Detalhes</string>
+    <string name="delete_password">Excluir senha</string>
+    <string name="delete_password_message">Deseja realmente excluir esta senha?</string>
+    <string name="confirm">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="add">Adicionar</string>
+    <string name="description_recover_password">Informe seu email para recuperar sua senha</string>
+    <string name="recover_password_button">Enviar email de recuperação</string>
+    <string name="password_title_1">"Senha "</string>
+    <string name="password_title_2">Aqui</string>
+    <string name="loading_data_message">Carregando dados\nAguarde...</string>
+    <string name="no_passwords_registered">Ainda não há senhas cadastradas.\nClique no botão abaixo para adicionar.</string>
+</resources>

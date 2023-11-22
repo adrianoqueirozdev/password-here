@@ -1,0 +1,33 @@
+package adrianoqueiroz.dev.strongpass
+
+import androidx.compose.material3.SnackbarHostState
+import androidx.compose.runtime.Stable
+import androidx.navigation.NavHostController
+
+@Stable
+class StrongPassAppState(
+   val navController: NavHostController, val snackbarHostState: SnackbarHostState
+) {
+
+   fun popUp() {
+      navController.popBackStack()
+   }
+
+   fun navigate(route: String) {
+      navController.navigate(route) { launchSingleTop = true }
+   }
+
+   fun navigateAndPopUp(route: String, popUp: String) {
+      navController.navigate(route) {
+         launchSingleTop = true
+         popUpTo(popUp) { inclusive = true }
+      }
+   }
+
+   fun clearAndNavigate(route: String) {
+      navController.navigate(route) {
+         launchSingleTop = true
+         popUpTo(0) { inclusive = true }
+      }
+   }
+}
